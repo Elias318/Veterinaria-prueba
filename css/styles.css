@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+*{  
+    margin: 0;
+    padding: 0;
+}
+#grilla{display: grid;}
+/* MOBILE */
+@media screen and (max-width: 768px){
+
+    #grilla{
+        grid-template-rows: 3;
+        grid-template-columns: 1;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        ;
+
+    }
+    header{
+        grid-area: header;
+        background-color:#062844;
+        nav{
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+
+
+};
+
+    
+
+
+
+/* html{
+        font-size: 62.5%; 
+        font-family:'Open Sans', Arial, sans-serif;
+    }
+
+    header{
+            background-color:#062844;
+    } */
+    
+    /* .titulos{
+        font-size: 22px;
+    } */
+   
+/* .div_whatsapp{
+    position: fixed;
+    top: 60rem;
+    left:140rem;
+    width: 7rem;
+}
+
+.Whatsapp_movible{
+    width: 100%;
+    height: 100%; 
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.Titulo__ul{
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+
+.Titulo__ul__a--position-relative{
+    text-decoration: none;
+    margin: 0.1rem;
+    color: #D7D8DE;
+}
+
+.Titulo__ul{
+    padding: 1rem 2rem;
+    display: inline-block;
+    
+}
+
+.Logo{
+    width: 25rem;
+    
+} 
+
+.imagen_frente{
+    width: 152rem;
+    height: 30rem;
+    display: inline-block;
+    position: relative;
+}
+
+.reserve_turno__btn{
+    position:absolute;
+    top: 37rem;
+    left: 64rem;
+}
+
+
+
+/* SECCION DE SERVICIOS  */
+/* .servicios{
+    background-color: #CE610B;
+    padding: 10px;
+    color: #D7D8DE;
+}
+.servicios__article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+
+}
+
+.servicios__article__h3{
+    font-size: 15px;
+} */
+
+/* SECCION DE CONOCE MAS  */
+
+/* .preguntas{
+background-color: #D7D8DE;
+}
+.conoce_mas__imagen{
+    width: 152rem;
+    height: 30rem;
+}
+.conoce_mas__btn{
+    position: absolute;
+    top: 80rem;
+    left: 60rem;
+} */
+/* SECCION "NOSOTROS" */
+
+
+/* .nuestro-local__imagen{
+    width:50rem;
+} */
+
+
+
+/* FOOTER */
+/* footer{
+    
+    background-color: #062844;
+    color: white;
+    padding:10px
+
+    
+    
+}
+
+.formulario{
+    
+    position:relative;
+    left: 80rem;
+}
+
+.datos{
+    font-size: medium;
+    position: relative;
+    bottom: 26rem;
+    left: 30rem;
+}
+
+.contacto_mapa{
+    width:152rem;
+}
+
+.footer_datos{
+font-size: medium;
+margin: 30px;
+}
+
+.footer_form{
+font-size: medium;
+margin: 30px;
+}
+
+.footer_mapa{
+    position: relative;
+    left: 75rem;
+    bottom: 40rem;
+
+}
+
+.footer__redes{
+    position: relative;
+    bottom: 30rem;  
+    height: 100%;
+    width: 100%;
+}
+
+.redes{
+    width:50px;
+}
+
+.redes_facebook{
+    height: 47px;
+} */
+
+/* seccion preguntas frecuentes */
+/* .tema_preguntas_frecuentes{
+    margin: 8px;
+    font-size: 20px;
+}
+.pregunta_preguntas_frecuentes{
+    margin: 8px;
+    font-size: 18px;
+}
+.respuesta_preguntas_frecuentes{
+    margin: 8px;
+    font-size: 15px;
+} */
+
+
+
+
